@@ -1,0 +1,16 @@
+section{
+    background-color: grey;
+    margin: 1rem 0;
+    height: 85vh
+}
+.about-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.about-content h1{
+    text-align: center;
+}
+.about-img{
+    margin: 1rem;
+}

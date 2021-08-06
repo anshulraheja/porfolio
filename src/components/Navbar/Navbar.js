@@ -31,7 +31,7 @@ function Navbar() {
     window.addEventListener('resize', showButton);
     return (
         <nav className="NavbarItems">
-            <h1 className="navbar-logo" onClick={closeMobileMenu}>A<i className="fab fa-react"></i></h1>
+            <h1 className="navbar-logo" onClick={closeMobileMenu}>&lt; A &gt;</h1>
             <div className="menu-icon" onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>

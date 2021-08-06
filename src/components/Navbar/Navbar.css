@@ -1,5 +1,5 @@
 .NavbarItems {
-    background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73,63,252,1) 100%);
+    background: var(--dark);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@
 }
 
 .nav-links:hover {
-    background-color: #6d76f7;
+    background-color: var(--shadowDark);
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
@@ -57,6 +57,7 @@
 @media screen and (max-width: 900px) {
     .NavbarItems {
         position: relative;
+
     }
 
     .nav-menu {
@@ -72,7 +73,7 @@
     }
 
     .nav-menu.active {
-        background: #6668f4;
+        background: var(--dark);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -87,7 +88,7 @@
     }
 
     .nav-links:hover {
-        background-color: #7577fa;
+        background-color: var(--shadowDark);
         border-radius: 0;
     }
 
@@ -120,15 +121,15 @@
         margin: 2rem auto;
         border-radius: 4px;
         width: 80%;
-        background: #4ad9e4;
+        background-color: var(--shadowDark);
         text-decoration: none;
-        color: #fff;
+        color: white;
         font-size: 1.5rem;
     }
 
     .nav-links-mobile:hover {
-        background: #fff;
-        color: #6568F4;
+        background: var(--shadowLight);
+        color: var(--lighter);
         transition: 250ms;
     }
 

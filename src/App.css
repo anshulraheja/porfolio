@@ -1,8 +1,15 @@
-  
+:root {
+  --dark: #12232E;
+  --light: #007CC7;
+  --lighter: #4DA8DA;
+  --shadowDark: #203647;
+  --shadowLight: #EEFBFB;
+  --body-font: 'Poppins', sans-serif;
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--body-font);
   }
   

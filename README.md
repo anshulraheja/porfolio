@@ -1,2 +1,2 @@
-## This is my portolio 
-#### Tech stack used: React
+## This is my portfolio website
+#### Tech stack used: React, CSS

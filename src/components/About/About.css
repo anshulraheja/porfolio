@@ -1,0 +1,32 @@
+.About{
+    height:40vh;
+    background-color: var(--light);
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.About-data{
+    width: 50%;
+    margin-top: 3%;
+    text-align: center;
+}
+.About-title{
+    padding: 1px 1px 3px 1px;
+    margin: 1px 1px 3px 1px;
+    font-size: 30px;
+}
+.About-content{
+    margin-top: 2px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 434px){
+    .About-content {
+        font-size:15px;
+    }
+    .About-title{
+        font-size:25px;    
+    }
+}

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './Projects.css';
 import {sliderData} from './ProjectData.js';
-
+import {Button} from '../Button.js';
 const Projects = () => {
     const [current ,setCurrent] = useState(0);
     const length = sliderData.length;
@@ -19,19 +19,27 @@ const Projects = () => {
     }
 
     return (    
-        <section>
+        <section className='card-section'>
             <div className="card">
                 <button className="card-button card-button-left" onClick={prevSlide} >
                     <i className="fas fa-chevron-left"></i>
                 </button>
+                
                 <div className="card-track-container">
+                <h2>Projects</h2>
                     <ul  className="card-track">
                         {sliderData.map((slide,index)=>{
                             return (
-                                <li className={index === current ? 'card-slide slide active' : 'card-slide slide'} key={index}>
-                                   {index === current && (
-                                       <img src={slide.image} alt="project" className="card-img"/>
-                                   )} 
+                                <li className={index === current ? 'card-slide active' : 'card-slide'} key={index}>
+                                   {/* {index === current && ( */}
+                                       <div className="card-content">
+                                           <img src='wallpaper_1.jpg' alt=""/>
+                                            <h2>{slide.name}</h2>
+                                            <p>{slide.description}</p>
+                                            <Button buttonStyle="btn--live"><a href='/'>Live</a></Button>
+                                            <Button buttonStyle="btn--viewSource"><a href='/'>View Source</a></Button>
+                                        </div>
+                                   {/* )}  */}
                                 </li>
                             )
                         })}

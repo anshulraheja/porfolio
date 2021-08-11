@@ -1,21 +1,25 @@
+.card-section{
+    background-color: var(--light);
+}
 .card{
     position:relative;
-    height:600px;
-    width: 80%;
+    height:500px;
+    width: 40%;
+    max-width: 500px;
     margin: 0 auto;
-    background-color:grey;
-}
-
-.card-img{
-    width:100%;
-    height:100%;
-    object-fit: cover;
+    /* background-color:grey; */
 }
 .card-track-container{
-    background:lightgreen;
     height:100%;
     position:relative;
+    margin-top:10%;
+    background:grey;
     /* overflow: hidden; */
+}
+.card-track-container h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 1% 0 5px 0;
 }
 .card-track{
     padding:0;
@@ -24,8 +28,17 @@
     position: relative;
     height:100%;
     transition: tranform 250ms ease-in;
+    background-color: red;
 }
-
+.card-content{
+   width:100%;
+   height:100%;
+   /* padding-left: 1.5rem; */
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start; 
+   justify-content: start;
+}
 .card-slide{
     position: absolute;
     top: 0;
@@ -39,11 +52,29 @@
     transition-duration:1s;
     transform: scale(1.0);
 }
+.card-content img{
+    width: 100%;
+    height: 40%;
+}
+.card-content h2{
+    font-size: 30px;
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+}
+.card-content p {
+    font-size: 25 px;
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+}
+.card-content Button{
+    align-self: center;
+}
 
+/* ignore */
 .card-button{
     position: absolute;
     top:50%;
-    transform: translateY(-50%) !important;
+    transform: translateY(-50%);
     background: transparent;
     border:0;
     cursor: pointer;

@@ -1,9 +1,15 @@
 export const sliderData = [
     {
-        image: 'wallpaper_1.jpg'
+        name: 'task-manager',
+        description: 'This is a tool to manage task',
+        github: '',
+        live:''
     },
 
     {
-        image: 'wallpaper_2.jpg'
+        name: 'twitter clone',
+        description: 'Add and delete tweet',
+        github:'',
+        live:''
     }
 ]

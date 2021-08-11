@@ -4,7 +4,9 @@ import './Button.css'
 const STYLES = [
     'btn--primary',
     'btn--outline',
-    'btn--contact'
+    'btn--contact',
+    'btn--live',
+    'btn--viewSource'
 ]
 
 const SIZES = [

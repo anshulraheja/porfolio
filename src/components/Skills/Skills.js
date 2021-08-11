@@ -3,12 +3,14 @@ import './Skills.css';
 
 const Skills = () => {
     return (
-        <sectiion>
-            <div>
+        <section className="skill-section">
+            <div className="skill-content">
                 <h2>Skills</h2>
-                <p>React | Javascript | CCS3 | HTML5 | Nodejs | MongoDB<br />Java | SQL | <br />Data Strucutre and Algorithm</p>
+                <p>React | Javascript | CCS3 | HTML5 | Nodejs | MongoDB</p>
+                <p>Java | SQL </p>
+                <p>Data Strucutre and Algorithm</p>
             </div>
-        </sectiion>
+        </section>
 
     )
 }

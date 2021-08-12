@@ -1,5 +1,5 @@
 .About{
-    height:40vh;
+    min-height:40vh;
     background-color: var(--lighter);
     display:flex;
     justify-content: center;
@@ -14,7 +14,6 @@
     padding: 1px 1px 3px 1px;
     margin: 1px 1px 3px 1px;
     font-size: 40px;
-    font-weight: 900;
     position: relative;
 }
 .About-title:after{
@@ -36,10 +35,11 @@
 
 
 @media screen and (max-width: 562px){
-    .About-content {
-        font-size:18px;
-    }
     .About-title{
-        font-size:25px;    
+        font-size:35px;    
     }
+    .About-content {
+        font-size:15px;
+    }
+    
 }

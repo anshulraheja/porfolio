@@ -3,7 +3,7 @@
     background-color: var(--lighter);
     display: flex;
     justify-content:space-evenly;
-    color: rgba(255, 255, 255, 0.);
+    color: rgb(0, 0, 0);
     margin-bottom: 5%;
 }
 .home-data{

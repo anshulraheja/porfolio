@@ -5,7 +5,7 @@ const About = () => {
         <section className="About" id="about-section">
             <div className="About-data">
                 <h2 className="About-title">about</h2>
-                <p className="About-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum praesentium hic earum deleniti odio a beatae minus saepe illo explicabo laboriosam delectus ipsum, porro consequatur magni maiores doloribus, dolores aliquam repudiandae! Vitae aspernatur expedita, distinctio commodi fuga ipsum nam est.</p>
+                <p className="About-content">Creative front-end web developer. Highly passionate to build React-based web apps. With 1 year of corporate work experience in javascript and java, I aspire to integrate my problem solving  and designing skills to excel as a Full Stack Developer</p>
             </div>
         </section>
 
@@ -13,3 +13,4 @@ const About = () => {
 }
 
 export default About
+

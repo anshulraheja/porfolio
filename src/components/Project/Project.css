@@ -87,9 +87,11 @@
 }
 .btn--live a{
   color: var(--shadowLight);
+  text-decoration: none;
 }
 .btn--viewSource a{
   color: var(--shadowLight);
+  text-decoration: none;
 }
 @media screen and (max-width:500px){
 .slider{

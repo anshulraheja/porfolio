@@ -20,6 +20,7 @@
 }
 .btn--mail a{
     color: var(--shadowLight);
+    text-decoration: none;
 }
 .home-social-icon{
     display: flex;

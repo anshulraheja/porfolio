@@ -1,6 +1,6 @@
 .About{
     height:40vh;
-    background-color: var(--light);
+    background-color: var(--lighter);
     display:flex;
     justify-content: center;
     align-items: flex-start;
@@ -13,18 +13,31 @@
 .About-title{
     padding: 1px 1px 3px 1px;
     margin: 1px 1px 3px 1px;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+}
+.About-title:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: var(--shadowDark);
 }
 .About-content{
-    margin-top: 2px;
+    margin-top: 10px;
     padding-top: 2px;
     font-size: 20px;
 }
 
 
-@media screen and (max-width: 434px){
+@media screen and (max-width: 562px){
     .About-content {
-        font-size:15px;
+        font-size:18px;
     }
     .About-title{
         font-size:25px;    

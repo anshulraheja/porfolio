@@ -4,19 +4,18 @@ import Home from "./components/Home/Home";
 import About from './components/About/About';
 import './App.css';
 import Skills from './components/Skills/Skills';
-import ImageSlider from './components/Project2/Project2.js';
-// import Contact from './components/Contact/Contact';
-import { SliderData } from './components/Project2/SliderData';
+import Project from './components/Project/Project.js';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar />
+      <Navbar />
       <Home />
       <About />
-      <Skills /> */}
-      <ImageSlider  slides={SliderData} />
-      {/* <Contact /> */}
+      <Skills />
+      <Project />
+      <Contact />
     </div>
   );
 }

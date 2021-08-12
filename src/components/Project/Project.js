@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { SliderData } from './SliderData';
-import './Project2.css'
+import './Project.css'
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 import { Button } from '../Button';
-const ImageSlider = ({ slides }) => {
+import { ProjectData } from './ProjectData.js';
+
+const Project = () => {
   const [current, setCurrent] = useState(0);
-  const length = slides.length;
+  const length = ProjectData.length;
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
@@ -15,15 +16,17 @@ const ImageSlider = ({ slides }) => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
-  if (!Array.isArray(slides) || slides.length <= 0) {
+  if (!Array.isArray(ProjectData) || ProjectData.length <= 0) {
     return null;
   }
 
   return (
-    <section className='slider'>
+    <section className='slider' id="project-section">
+        <h2 className='project-title'>projects</h2>
         <div className='slider-content'>
         <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-        {SliderData.map((slide, index) => {
+        
+        {ProjectData.map((slide, index) => {
             return (
             <div
                 className={index === current ? 'slide active' : 'slide'}
@@ -47,4 +50,4 @@ const ImageSlider = ({ slides }) => {
   );
 };
 
-export default ImageSlider;
+export default Project;

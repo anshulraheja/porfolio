@@ -31,7 +31,7 @@ function Navbar() {
     window.addEventListener('resize', showButton);
     return (
         <nav className="NavbarItems">
-            <h1 className="navbar-logo" onClick={closeMobileMenu}>&lt; A &gt;</h1>
+            <h1 className="navbar-logo" onClick={closeMobileMenu}><a href="index.html#home-section">&lt; A &gt;</a></h1>
             <div className="menu-icon" onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>
@@ -46,7 +46,7 @@ function Navbar() {
                     )
                 })}
             </ul>
-            {button && <Button buttonStyle='btn--outline'>Resume</Button>}
+            {button && <a href="AnshulRaheja_Resume.pdf" target="_blank" rel="noopener noreferrer"> <Button buttonStyle='btn--outline'>Resume</Button></a>}
         </nav>
     )
 }

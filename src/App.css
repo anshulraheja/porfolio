@@ -1,10 +1,10 @@
 :root {
-  --dark: #12232E;
-  --light: #007CC7;
-  --lighter: #4DA8DA;
-  --shadowDark: #203647;
-  --shadowLight: #EEFBFB;
-  --body-font: 'Poppins', sans-serif;
+  --dark: #437fc7;
+  --light: #6daffe;
+  --lighter: #edf6ff;
+  --shadowDark: #b9732f;
+  --shadowLight: #ffffff;
+  --body-font:'Atkinson Hyperlegible', sans-serif
 }
 * {
     box-sizing: border-box;

@@ -7,13 +7,15 @@
     font-size: 1.2rem;
 }
 
-.navbar-logo {
-    color: #fff;
+.navbar-logo a{
+    color: var(--shadowLight);
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
 }
-
+.navbar-logo a:hover{
+    color: var(--shadowDark);
+}
 .fa-react {
     margin-left: 0.5rem;
     font-size: 1.6rem;
@@ -31,7 +33,7 @@
 }
 
 .nav-links {
-    color: white;
+    color: var(--shadowLight);
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -43,9 +45,11 @@
 }
 
 .fa-bars {
-    color: #fff;
+    color: var(--shadowLight);
 }
-
+.fa-bars:hover{
+    color: var(--shadowDark);
+}
 .nav-links-mobile {
     display: none;
 }
@@ -110,17 +114,20 @@
     }
 
     .fa-times {
-        color: #fff;
+        color: var(--lighter);
         font-size: 2rem;
     }
 
+    .fa-times:hover{
+        color: var(--shadowDark);
+    }
     .nav-links-mobile {
         display: block;
         text-align: center;
-        padding: 1.5rem;
+        padding: 1.0rem;
         margin: 2rem auto;
         border-radius: 4px;
-        width: 80%;
+        width: 60%;
         background-color: var(--shadowDark);
         text-decoration: none;
         color: white;
@@ -129,7 +136,7 @@
 
     .nav-links-mobile:hover {
         background: var(--shadowLight);
-        color: var(--lighter);
+        color: var(--shadowDark);
         transition: 250ms;
     }
 

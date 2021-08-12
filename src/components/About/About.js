@@ -2,10 +2,10 @@ import React from 'react'
 import './About.css'
 const About = () => {
     return (
-        <section className="About">
+        <section className="About" id="about-section">
             <div className="About-data">
-                <h2 className="About-title">About</h2>
-                <p className="About-content">Many times, readers will get distracted by readable text when looking at the layout of a page. Instead of using filler text that says “Insert content here,” Lorem Ipsum uses a normal distribution of letters, making it resemble standard English.</p>
+                <h2 className="About-title">about</h2>
+                <p className="About-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum praesentium hic earum deleniti odio a beatae minus saepe illo explicabo laboriosam delectus ipsum, porro consequatur magni maiores doloribus, dolores aliquam repudiandae! Vitae aspernatur expedita, distinctio commodi fuga ipsum nam est.</p>
             </div>
         </section>
 

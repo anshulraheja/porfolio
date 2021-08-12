@@ -4,9 +4,10 @@ import './Button.css'
 const STYLES = [
     'btn--primary',
     'btn--outline',
-    'btn--contact',
+    'btn--mail',
     'btn--live',
-    'btn--viewSource'
+    'btn--viewSource',
+    'btn-submit'
 ]
 
 const SIZES = [

@@ -46,7 +46,7 @@ function Navbar() {
                     )
                 })}
             </ul>
-            {button && <a href="AnshulRaheja_Resume.pdf" target="_blank" rel="noopener noreferrer"> <Button buttonStyle='btn--outline'>Resume</Button></a>}
+            {button && <a href="Resume Anshul Raheja.pdf" target="_blank" rel="noopener noreferrer"> <Button buttonStyle='btn--outline'>Resume</Button></a>}
         </nav>
     )
 }

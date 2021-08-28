@@ -21,7 +21,7 @@ export const MenuItems = [
     },
     {
         title: 'Resume',
-        url: 'AnshulRaheja_Resume.pdf',
+        url: 'Resume_AnshulRaheja.pdf',
         cName: 'nav-links-mobile'
     }
 ]
